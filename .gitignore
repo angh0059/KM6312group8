@@ -1,0 +1,23 @@
+# Jupyter Notebook hidden checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environments & packages
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache files (speeds up execution, unneeded for Git)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data files (Optional: Prevents accidentally uploading huge CSVs/datasets)
+*.csv
+*.xlsx
+*.json
+!*.ipynb  # Do NOT ignore your actual notebook files
+
+# Local environment configuration variables (passwords/API keys)
+.env
